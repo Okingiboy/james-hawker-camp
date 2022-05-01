@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <header
+    class="head"
+  >
+    <nav>
+      <div
+        class="row"
+      >
+        <div
+          id="logo"
+        >
+          <a
+            href="/"
+          >
+            <span
+              aria-label="img-name"
+              role="img"
+            >
+              <img
+                alt="logo"
+                class="photo"
+                src="Hawker.svg"
+              />
+            </span>
+          </a>
+        </div>
+        <div
+          class="colNav"
+        >
+          <a
+            href="/login"
+          >
+            <button
+              class="btn-primary loginBtn"
+            >
+              Login
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+</DocumentFragment>
+`;
